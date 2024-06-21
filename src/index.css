@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: minecraftia;
+  src:url(../public/fonts/minecraftia.ttf);
+}
+
+
+:root {
+  --background-image: url('../public/images/background.gif');
+  --text-color: rgb(181, 44, 34);
+  --border-color: rgba(240, 4, 4, 0.253);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: minecraftia;
+}
+
+.bg {
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.card-bg {
+  background: rgba(6,6,6,0.25);
+-webkit-backdrop-filter: blur(12px);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid var(--border-color);
+}
+
+.link-bg{
+  background-color: rgba(0, 0, 0, 0.349);
+  border: 1px solid var(--border-color);
+  transition: 1s;
+}
+
+.link-bg:hover {
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.796);
+  transform: scale(1.1);
+
+}
+
+.color {
+  color: var(--text-color) !important;
+}
+
+.userInfo img {
+  border: 1px solid var(--border-color);
+}
+
+
+.wobble {
+  animation: wobble 10s ease-in-out 0s infinite normal none;
+}
+
+@keyframes wobble {
+  0%,
+  100% {
+	transform: translateX(0%);
+	transform-origin: 50% 50%;
+  }
+
+  15% {
+	transform: translateX(-5px) rotate(-6deg);
+  }
+
+  30% {
+	transform: translateX(5px) rotate(6deg);
+  }
+
+  45% {
+	transform: translateX(-5px) rotate(-3.6deg);
+  }
+
+  60% {
+	transform: translateX(4px) rotate(2.4deg);
+  }
+
+  75% {
+	transform: translateX(-3px) rotate(-1.2deg);
+  }
+}
+
+
+/* music player */
+
+.volume {
+  -webkit-appearance: none;
+  border-radius: 50px;
+  accent-color: red;
+  background: #1b181886;
+  border: 1px solid var(--border-color);
+  width: 25%;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+   
+

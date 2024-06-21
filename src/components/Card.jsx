@@ -7,7 +7,7 @@ import Tilt from 'react-parallax-tilt';
 const Card = () => {
     return (
 
-        <div className=" w-5/12 flex flex-col text-white color p-10 m-5">
+        <div className=" w-5/12 flex flex-col  text-white color p-4 m-5 card-r">
 
             <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} tiltReverse={true}>
                 <Header />

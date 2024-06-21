@@ -10,7 +10,7 @@ const AudioPlayer = () => {
 
     const song = {
         title: 'Dove - Bôa',
-        song: '../../../public/music/song.mp3'
+        song: '../../public/music/song.mp3'
 
     }
 

@@ -85,7 +85,7 @@ const AudioPlayer = () => {
         <div className="w-full card-bg flex flex-col items-center p-2">
             <h3 className="p-3">{song.title}</h3>
             <div className="flex flex-col w-full">
-                <input
+                <input className="progessbar"
                     type="range"
                     min="0"
                     max={duration}

@@ -13,7 +13,8 @@ const Header = () => {
             <FaTools />
             </div>
               </IconContext.Provider>
-            <p className="p-2 text-center typing">Full stack web dev</p>
+              
+            <p className="p-2 text-center typing">18 Y/O <br></br>Full stack web dev</p>
         </div>
         <LinkList/>
     </div>  );

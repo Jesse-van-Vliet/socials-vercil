@@ -106,6 +106,14 @@ border: 1px solid var(--border-color);
   width: 25%;
 }
 
+.progessbar {
+  -webkit-appearance: none;
+  border-radius: 50px;
+  accent-color: red;
+  background: #00000086;
+  border: 1px solid var(--border-color);
+}
+
 
 
 

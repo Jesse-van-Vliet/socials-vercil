@@ -19,6 +19,12 @@ export default [
         name: 'YouTube',
         url: 'https://www.youtube.com/jitchu',
         icon: 'FaYoutube',
+      },
+      {
+        id: 4,
+        name: 'Instagram',
+        url: 'https://www.instagram.com/jesse.v._/',
+        icon: 'FaInstagram',
       }
 
     

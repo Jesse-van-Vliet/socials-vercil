@@ -1,5 +1,8 @@
-import Card from "../components/Card";
+import React from "react";
 import { useState } from "react";
+import { Landing } from "../components/IndexContent/Landing";
+import { Features } from "../components/IndexContent/Features";
+
   
 
 const Index = () => {
@@ -17,29 +20,10 @@ const Index = () => {
   }
     return ( 
     
-            <main className="bg flex flex-col h-screen  w-screen items-center justify-center " >
-                {showBack ?
-                    (
-                        // answer card
-                        <>
-                    
-                     <Card/>
-                        </>
-
-                    ) :
-                    (
-                        // question card
-                        <div className="h-full w-full flex justify-center items-center bg-5 cursor-pointer text-white" onClick={handleShowBack}>
-                        <div>
-                            <p className="z-50 text-2xl  ">Click Anywhere</p>
-                        </div>
-                     </div>
-                    )}
-                
-            
-           
-
-        </main>
+     <div>
+            <Landing/>
+            <Features/>
+     </div>
 
      );
 }

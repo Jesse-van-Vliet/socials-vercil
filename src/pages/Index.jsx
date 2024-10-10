@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Landing } from "../components/IndexContent/Landing";
 import { Features } from "../components/IndexContent/Features";
+import Staff from "../components/IndexContent/Staff";
 
   
 
@@ -23,6 +24,7 @@ const Index = () => {
      <div>
             <Landing/>
             <Features/>
+            <Staff/>
      </div>
 
      );

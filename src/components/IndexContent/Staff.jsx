@@ -1,10 +1,11 @@
 
 import StaffMemberList from "./Staff/StaffMemberList";
 
+
 const Staff = () => {
     return ( 
     <>
-    <div className="min-h-screen w-screen bgStaff flex flex-col  ">
+    <div className="min-h-screen w-screen bgStaff flex flex-col boxShadow   ">
      <div className=" min-h-screen w-full bgBlur flex flex-col justify-center">
      <div className="flex flex-row text-3xl font-bold w-full justify-center item">
 <div className="text-center p-10">

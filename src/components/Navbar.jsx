@@ -38,6 +38,7 @@ export const Navbar = () => {
         <nav className={scrolling ? 'navbar-scroll text-white z-40' : 'text-white z-40'}>
             <div className='burger' onClick={handleShowBack}>
             <Link className='text-4xl' to='/Index'><div className='flex flex-row'><h1 className='text-yellow-300'>P</h1> <h1 className='text-blue-500'>C</h1> <h1 className='text-red-600'>7</h1> Client</div></Link>
+            
             <div className="menu">
                 <span></span>
                 <span></span>
@@ -55,9 +56,15 @@ export const Navbar = () => {
                 <li>
                 <a href="https://www.patreon.com/PC7Client" target='_blank'>Patreon</a>
                     </li>
+
+                    
                 </ul>
+
+              
                 
         </nav>
+
+        
     )
 }
 

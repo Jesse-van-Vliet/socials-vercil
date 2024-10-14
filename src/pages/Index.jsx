@@ -22,10 +22,15 @@ const Index = () => {
     return ( 
     
      <div>
+      <div>
             <Landing/>
             <Features/>
             <Staff/>
      </div>
+     </div>
+
+     
+     
 
      );
 }

@@ -12,6 +12,10 @@
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bgLanding {
   background-image: url('../public/images/Industry-2.webp');
   background-repeat: no-repeat;
@@ -63,6 +67,18 @@ padding-bottom: 90px;
   .wavy {
     background-size: unset;
   }
+}
+
+.boxShadow {
+-webkit-box-shadow: -14px -53px 89px -47px rgba(0,0,0,0.41);
+-moz-box-shadow: -14px -53px 89px -47px rgba(0,0,0,0.41);
+box-shadow: -14px -53px 89px -47px rgba(0,0,0,0.41);
+}
+
+.scrollTop {
+
+    transition: 2s;
+  
 }
 
 

@@ -4,7 +4,7 @@ import { FeatureList } from './Feature/FeatureList'
 
 export const Features = () => {
   return (
-    <section className=' bgFeature min-h-screen w-screen flex flex-col'>
+    <section className=' bgFeature min-h-screen w-screen flex flex-col boxShadow' id='section2'>
       <div className="bgBlur min-h-screen flex flex-col justify-center items-center">
         <div className='text-white text-center p-10'>
             <h2 className='text-4xl shadow m-5'>

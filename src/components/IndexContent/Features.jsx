@@ -10,7 +10,7 @@ export const Features = () => {
             <h2 className='text-4xl shadow m-5'>
                 PC7 Features
             </h2>
-            <p className='w-96'>PC7 offers allot of different unique features that are only avaliable on PC7, from customizability features to Quality of life features you name it! We listed a couple ones here</p>
+            <p className='w-96'>PC7 offers a lot of different unique features that are only avaliable on PC7, from customizability features to Quality of life features you name it! We listed a couple ones here</p>
             </div>
      
 

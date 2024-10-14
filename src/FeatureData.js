@@ -8,7 +8,7 @@ export default [
       {
         id: 2,
         label: 'Custom skye',
-        text: 'Custom skye is a function that allows you to change the color of the skyebox, You might remember this feature from back in the day but PC7 is back with this function and currently the only client which has it build in!',
+        text: 'Custom skye is a function that allows you to change the color of the skyebox, You might remember this feature from back in the day but PC7 is back with this function and currently the only client which has it built in!',
         
       },
 

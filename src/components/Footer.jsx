@@ -20,9 +20,9 @@ export default function Footer() {
         <IconContext.Provider value={{ color: "white", className: "mr-2",  size: '18'}}>
         <div className='flex flex-col'>
        
-           <a href="https://github.com/AceSilentKill/PC7-Client/raw/main/docs/PC7%20-%20Terms%20Of%20Service.pdf"className='flex'><FaDiscord/>Support server</a>
-           <a href="https://github.com/AceSilentKill/PC7-Client/raw/main/docs/PC7%20-%20Privacy%20Policy.pdf" className='flex'><FaGithub /> GitHub</a>
-           <a href="https://github.com/AceSilentKill/PC7-Client/raw/main/docs/PC7%20-%20Privacy%20Policy.pdf"className='flex'><FaPatreon />Patreon</a>
+           <a href="https://discord.com/invite/BxweEFyZFm"className='flex'><FaDiscord/>Support server</a>
+           <a href="https://github.com/PC7-Client/PC7-Client#readme" className='flex'><FaGithub /> GitHub</a>
+           <a href="https://www.patreon.com/PC7Client"className='flex'><FaPatreon />Patreon</a>
            </div>
            </IconContext.Provider>
 

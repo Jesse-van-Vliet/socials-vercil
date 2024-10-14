@@ -1,16 +1,19 @@
-import StaffMember from "./Staff/StaffMember";
+
+import StaffMemberList from "./Staff/StaffMemberList";
 
 const Staff = () => {
     return ( 
     <>
-    <div className="h-screen w-screen bgStaff flex flex-col">
-     <div className="h-full w-full bgBlur">
-     <div className="flex flex-row text-3xl font-bold w-full justify-center">
-     <h2 className="text-white">Staff Team </h2>
-      </div>
-
-    <StaffMember Name={'Jitchu'} Role={"Admin"} />
-
+    <div className="min-h-screen w-screen bgStaff flex flex-col  ">
+     <div className=" min-h-screen w-full bgBlur flex flex-col justify-center">
+     <div className="flex flex-row text-3xl font-bold w-full justify-center item">
+<div className="text-center p-10">
+<h2 className="text-white">PC7 Staff Team</h2>
+<p className="text-white text-xs p-2">The people that make the magic happen at PC7</p>
+</div>
+     
+      </div >
+      <StaffMemberList/>
     </div>
      </div>
     </> );

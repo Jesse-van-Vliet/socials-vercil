@@ -1,9 +1,9 @@
 import { IoBriefcaseSharp } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
-const StaffMember = ({Name, Role, Url}) => {
+const StaffMember = ({Name, Role, Url, key}) => {
     return ( <>
-    <div>
+    <div className="p-10">
     <IconContext.Provider value={{ color: "white", size: '12' }}>
         <img className="h-64 rounded-xl  " src={Url} alt="Profile picture" />
         <div className="border-2 rounded-2xl bgBlur2 text-white flex-col flex justify-center items-center h-28 w-72 absolute translate-x-5 -translate-y-8">

@@ -24,7 +24,7 @@ export default [
         id: 4,
         name: 'Wubbity',
         role: 'Admin',
-        url: '/../public/images/StaffPfp/wubbity.png',
+        url: '/../public/images/StaffPfp/wubbity.jpg',
       },
 
     
